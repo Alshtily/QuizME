@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@600&display=swap');
+
+
+
+body {
+    margin: 0 auto;
+    font-family: 'Cairo';
+    
+}
+
+
+
+
+header {
+    padding: 0 auto;
+    text-align: center;
+}
+.header-1 {
+
+   margin: 0 auto;
+    background-color: #0099ff;
+
+    padding: 20px;
+}
+
+.header-1 h1 {
+
+    margin: 0 auto;
+    color:  white;
+}
+.header-1 input {
+    display: block;
+    margin: auto;
+    margin-top: 5px;
+    border-radius: 5px;
+
+
+    font-size: large;
+    font-family: "Cairo";
+}
+.header-1 button {
+    margin-top: 5px;
+    border-radius: 5px;
+
+
+    font-size: large;
+    font-family: "Cairo";
+}
+
+.header-1 label {
+    color: white;
+}
+
+
+.container {
+    padding: 5px;
+
+
+    padding-bottom: 100px;
+}
+
+.container .cards {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container .cards .card {
+    background-color: #c0bebe ;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+
+
+
+    box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.02),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.028),
+  0 12.5px 10px rgba(0, 0, 0, 0.035),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.042),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.05),
+  0 100px 80px rgba(0, 0, 0, 0.07)
+;
+
+margin: 10px;
+}
+
+
+.cards .card .a1 {
+    color: green;
+}
+
+.cards .card .a2 {
+    color: red;
+}
+
+
+.hedn {
+    display: none;
+}
+
+
+
+
+
+.heddn {
+display: none;
+color: black;
+
+}
+
+
+#unhidn {
+    text-align: center;
+}
+
+/*  
+Shadow 
+
+
+box-shadow:
+  0 2.8px 2.2px rgba(0, 0, 0, 0.02),
+  0 6.7px 5.3px rgba(0, 0, 0, 0.028),
+  0 12.5px 10px rgba(0, 0, 0, 0.035),
+  0 22.3px 17.9px rgba(0, 0, 0, 0.042),
+  0 41.8px 33.4px rgba(0, 0, 0, 0.05),
+  0 100px 80px rgba(0, 0, 0, 0.07)
+;
+
+
+*/
